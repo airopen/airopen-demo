@@ -16,9 +16,8 @@ Apply airopen-project.yaml in namespace airopen
 
 Apply mlserver.yaml (namespace is explicitely set in yaml file)
 
-Create multi-model server and then a model based on xgboost-1 with bucket breastcancer-bucket and path models/1/test-model.bst. ==> TODO Automate this.
+Create multi-model server (namespace airopen, create route, no token) and then a model based on xgboost-1 with bucket breastcancer-bucket and path models/1/test-model.bst. ==> TODO Automate this.
 
 Apply shiny-app-template.yaml in airopen.
 
-
-
+Create app in DevMode via "All services" (adapt APP_GIT_URI and MODEL_INFERENCE_URL).
